@@ -1,0 +1,12 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css'; // Only import the essential CSS
+import BackgroundText from './components/BackgroundText.jsx'; // Import only BackgroundText
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <div className="App h-full w-full">
+      <BackgroundText /> {/* Render only BackgroundText */}
+    </div>
+  </React.StrictMode>
+);
